@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools==56", "wheel", "setuptools_scm[toml]>=3.4.1"]
+requires = ["setuptools==56", "wheel", "setuptools_scm[toml]==6.0.1"]
 build-backend = "setuptools.build_meta"
 
 [tool.black]
@@ -12,7 +12,7 @@ addopts = "--black"
 
 [pytest.enabler.mypy]
 addopts = "--mypy"
-
+ 
 [pytest.enabler.flake8]
 addopts = "--flake8"
 
